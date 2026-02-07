@@ -1,0 +1,20 @@
+diabetes_ann_app/
+│
+├─ backend/
+│   ├─ main.py
+│   ├─ diabetes_model.h5
+│   ├─ patients.csv   # optional
+│   ├─ requirements.txt
+│
+├─ frontend/
+│   ├─ src/
+│   │   ├─ App.jsx
+│   │   ├─ PatientForm.jsx
+│   │   ├─ PatientTable.jsx
+│   │   └─ index.jsx
+│   ├─ package.json
+│   └─ vite.config.js
+│
+├─ .gitignore
+├─ README.md
+└─ LICENSE
