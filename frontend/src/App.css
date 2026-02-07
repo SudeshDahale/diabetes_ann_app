@@ -1,0 +1,71 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto; /* center container horizontally */
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center children horizontally */
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #34495e;
+}
+
+.prediction-result {
+  background-color: #eaf7ea;
+  padding: 12px 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  font-size: 1.1em;
+  width: 100%;
+  text-align: center;
+}
+
+.probability {
+  font-weight: normal;
+  color: #555;
+}
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+
+  display: flex;            /* make body a flex container */
+  justify-content: center;  /* center horizontally */
+  align-items: flex-start;  /* start from top vertically */
+  min-height: 100vh;        /* full viewport height */
+}
+
+.container {
+  width: 90%;              /* shrink container width */
+  max-width: 900px;        /* limit max width */
+  margin: 50px 0;          /* vertical spacing */
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center children horizontally inside the card */
+}

@@ -1,0 +1,70 @@
+.patient-form-wrapper {
+  display: flex;
+  justify-content: center; /* horizontally center form */
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.patient-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 600px; /* fixed width for form */
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.predict-btn {
+  grid-column: span 2;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.predict-btn:hover {
+  background-color: #2980b9;
+}
+
+@media (max-width: 650px) {
+  .patient-form {
+    grid-template-columns: 1fr; /* single column on mobile */
+    width: 100%;
+  }
+}
+.patient-form-wrapper {
+  display: flex;
+  justify-content: center; /* center form inside card */
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.patient-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 600px; /* fixed width for form */
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}

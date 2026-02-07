@@ -1,0 +1,64 @@
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.patient-table th,
+.patient-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.patient-table th {
+  background-color: #3498db;
+  color: white;
+}
+
+.highlight-row {
+  background-color: #f9f871;
+  font-weight: bold;
+}
+.patient-table {
+  width: 100%;
+  max-width: 800px; /* table fits nicely inside card */
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto; /* center table */
+}
+.table-wrapper {
+  width: 100%;
+  max-width: 800px;      /* fits nicely inside the card */
+  overflow-x: auto;      /* horizontal scroll if table too wide */
+  margin: 0 auto;        /* center wrapper */
+}
+
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient-table th,
+.patient-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  white-space: nowrap; /* prevent text from wrapping inside cells */
+}
+
+.patient-table th {
+  background-color: #3498db;
+  color: white;
+}
+
+.highlight-row {
+  background-color: #f9f871;
+  font-weight: bold;
+}
+.patient-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
