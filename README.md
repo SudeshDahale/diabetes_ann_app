@@ -1,4 +1,5 @@
 # Diabetes Prediction System
+![Diabetes Prediction System Cover](./cover1.webp)
 
 A full-stack web application leveraging Artificial Neural Networks (ANN) to predict diabetes risk based on patient health metrics. The system provides real-time predictions with probability scores and maintains a comprehensive patient history database.
 
